@@ -31,4 +31,9 @@ public class StudentService
     this.studentRepository.saveAll(aStudents);
   }
   
+  public void saveStudent(Student aStudent)
+  {
+    this.studentRepository.save(aStudent);
+  }
+  
 }
